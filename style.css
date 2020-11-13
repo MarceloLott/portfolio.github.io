@@ -1,0 +1,145 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:ghostwhite;
+}
+
+header {
+    background-image: url(Imagens/Background/Water1_screenshot.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    text-align: center;
+    font-size: 7vw;
+}
+
+footer {
+    background-color: rgb(236, 236, 236);
+    height: auto;
+    text-align: center;
+    padding: 5%;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+h1 {
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 7vw;
+    text-align: center;
+    text-shadow: 1px 1px 1px #111111;
+    font-style:italic;
+    padding: 5% 0 10% 0;
+}
+
+h2 {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4vw;
+    text-align: center;
+    text-shadow: 1px 1px 1px #111111;
+    padding: 4% 0 0 0;
+}
+
+h3 {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vw;
+    text-align: center;
+    text-shadow: 1px 1px 1px #111111;
+    padding: 3%;
+}
+
+h4 {
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vw;
+    text-align: center;
+    margin: 5% 0 -8% 0;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+p {
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vw;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+ul {
+    width: 880px;
+    list-style: none;
+    display: flex;
+    margin: 100px auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.hrdif {
+    width: 50%;
+    border: 1px dashed darkblue;
+    border-radius: 1px;
+    margin: 0.5% 0 0.5% 0;
+}
+
+.alinhar {
+    text-align: center;
+}
+
+.videodiv { 
+    display: block; 
+    margin: 0 auto 0 auto;
+    width: 60%;
+    padding:56.25% 0 0 0;
+    position: relative;
+}
+
+.video { 
+    left: 0;
+    top: 0; 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}  
+
+#div_menu {
+    background-color: rgb(236, 236, 236);
+    font-size: 2vw;
+    background-size: cover;
+    padding: 4%;
+}
+
+#nav_menu {
+    text-align: center;
+}
+
+#nav_menu a{
+    text-decoration: none;
+    color: rgb(37, 122, 219);
+    text-shadow: 1px 1px 1px #111111;
+    padding: 4%;
+}
+
+#nav_btm {
+    text-align: center;
+}
+
+#nav_btm a{
+    text-decoration: none;
+    color: rgb(37, 122, 219);
+    text-shadow: 1px 1px 1px #111111;
+}
